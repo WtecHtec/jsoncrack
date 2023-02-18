@@ -8,6 +8,7 @@ const withBundleAnalyzer = require("@next/bundle-analyzer")({
 const config = {
   reactStrictMode: false,
   productionBrowserSourceMaps: true,
+  // assetPrefix: '/public/tools/json-tool/',
   compiler: {
     styledComponents: true,
   },

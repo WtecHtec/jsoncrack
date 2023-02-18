@@ -103,7 +103,7 @@ export const MonacoEditor = () => {
         theme={lightmode}
         options={editorOptions}
         onChange={handleChange}
-        loading={<Loading message="Loading Editor..." />}
+        loading={<Loading message="加载中..." />}
         beforeMount={handleEditorWillMount}
         defaultLanguage="json"
         height="100%"

@@ -55,7 +55,7 @@ export const Loading: React.FC<LoadingProps> = ({ loading = true, message }) => 
   return (
     <StyledLoading>
       <StyledLogo>
-        <StyledText>JSON</StyledText> Crack
+        <StyledText>APC</StyledText> JSON
       </StyledLogo>
       <StyledMessage>{message ?? "Preparing the environment for you..."}</StyledMessage>
     </StyledLoading>

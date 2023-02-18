@@ -187,7 +187,8 @@ export const Sidebar: React.FC = () => {
     <StyledSidebar>
       <StyledTopWrapper>
         <StyledElement href="/" as={StyledLogo}>
-          <StyledText>J</StyledText>
+          <StyledText>A</StyledText>
+          <StyledText secondary>P</StyledText>
           <StyledText secondary>C</StyledText>
         </StyledElement>
 
@@ -236,12 +237,12 @@ export const Sidebar: React.FC = () => {
           component={<AiOutlineDelete />}
         />
 
-        <SidebarButton
+        {/* <SidebarButton
           title="View Cloud"
           deviceDisplay="desktop"
           onClick={() => setVisible("cloud")(true)}
           component={<VscCloud />}
-        />
+        /> */}
 
         <SidebarButton
           title="Settings"
@@ -251,11 +252,11 @@ export const Sidebar: React.FC = () => {
         />
       </StyledTopWrapper>
       <StyledBottomWrapper>
-        <SidebarButton
+        {/* <SidebarButton
           title="Account"
           onClick={() => setVisible("account")(true)}
           component={<VscAccount />}
-        />
+        /> */}
         <SidebarButton
           title="Settings"
           onClick={() => setVisible("settings")(true)}

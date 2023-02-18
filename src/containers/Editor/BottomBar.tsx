@@ -140,7 +140,7 @@ export const BottomBar = () => {
   };
 
   return (
-    <StyledBottomBar>
+    <StyledBottomBar style={{ display: 'none' }}>
       {data?.name && (
         <Head>
           <title>{data.name} | JSON Crack</title>
